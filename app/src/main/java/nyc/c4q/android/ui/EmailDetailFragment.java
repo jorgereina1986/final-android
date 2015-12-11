@@ -15,6 +15,7 @@ import nyc.c4q.android.model.Email;
 public class EmailDetailFragment extends Fragment {
   private Email email;
   private static final DateFormat formatter = SimpleDateFormat.getDateInstance(DateFormat.SHORT);
+  Fragment fragment;
 
   @Override public void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
@@ -38,6 +39,11 @@ public class EmailDetailFragment extends Fragment {
   public static EmailDetailFragment newInstance(Email email) {
     // TODO - implement this factory method
     // create fragment, set up its only argument (the email) and return it
+//    ArticleFragment newFragment = new ArticleFragment();
+//    Bundle args = new Bundle();
+//    args.putInt(ArticleFragment.ARG_POSITION, position);
+//    newFragment.setArguments(args);
+
 
     // hint
     //args.putSerializable("email", email);

@@ -43,4 +43,5 @@ public class Email implements Serializable {
   public Date getSent() {
     return sent;
   }
+
 }

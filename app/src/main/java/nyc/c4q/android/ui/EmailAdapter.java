@@ -39,6 +39,7 @@ public class EmailAdapter extends BaseAdapter {
   @Override public View getView(int position, View view, ViewGroup parent) {
     if (view == null) {
       // TODO - load R.layout.list_email_row
+      view = LayoutInflater.from(context).inflate(R.layout.list_email_row, parent, false);
     }
 
     // TODO - setup views
